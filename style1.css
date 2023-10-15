@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    
+font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: #3ba3ff;
+}
+nav
+{
+    flex: 1;
+    text-align: right;   
+}
+nav ul{
+    display: inline-block;
+    list-style: none;
+}
+nav ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+p{
+    color: #555;
+}
+.container{
+    max-width: 1300;
+    margin: auto;
+    padding-left: 25;
+    padding-right: 25;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.btn{
+    display: inline-block;
+    background: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 0;
+    border-radius: 30px;
+    transition: background 0.5s;
+}
+.btn:hover{
+    background: #563434;
+}
+.header{
+    background: radial-gradient(#fff,#007fff);
+   
+    
+}
+.header .row{
+    margin-top: 70px;
+}
+.Clubes{
+    margin: 50px 0;
+}
+.col-4{
+    flex-basis: 25%;
+    min-width: 200px;
+    margin-bottom: 20px;
+}
+.col-4 img{
+    width: 70%;
+}
+.header{
+    background-color: radial-gradient(#000,rgb(20, 30, 219));
+}
